@@ -1,3 +1,5 @@
+(function (AFRAME) {
+
 	AFRAME.registerComponent('canvas-material', {
 		schema: {
 			width: {
@@ -34,8 +36,9 @@
 		}
 	});
 
-(function (AFRAME) {
-
+	
+	
+	
   /**
    * Draw multi line text.
    * Font size must be specified in px unit.
